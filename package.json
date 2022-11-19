@@ -1,0 +1,60 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "WATCHPACK_POLLING=true react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "name": "atom",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "main": "src/index.js",
+    "devDependencies": {
+        "@chakra-ui/icons": "2.0.12",
+        "@chakra-ui/react": "2.4.1",
+        "@emotion/react": "11.10.5",
+        "@emotion/styled": "11.10.5",
+        "@emotion/styled-base": "11.0.0",
+        "@emotion/unitless": "0.8.0",
+        "@popperjs/core": "^2.10.2",
+        "@testing-library/jest-dom": "5.16.5",
+        "@testing-library/react": "13.4.0",
+        "@testing-library/user-event": "14.4.3",
+        "@types/jest": "29.2.3",
+        "@types/node": "18.11.9",
+        "@types/react": "18.0.25",
+        "@types/react-dom": "18.0.9",
+        "@vitejs/plugin-react": "^2.0.0",
+        "framer-motion": "7.6.7",
+        "laravel-vite-plugin": "^0.7.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "6.4.3",
+        "react-scripts": "5.0.1",
+        "recoil": "0.7.6",
+        "recoil-persist": "4.2.0",
+        "typescript": "4.9.3",
+        "vite": "^3.2.4",
+        "web-vitals": "3.1.0"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "dependencies": {
+        "@egjs/react-flicking": "^4.10.3",
+        "@tanstack/react-query": "^4.16.1",
+        "react-app-rewired": "^2.2.1",
+        "react-error-boundary": "^3.1.4",
+        "react-loader-spinner": "^5.3.4",
+        "react-reveal": "^1.2.2",
+        "video-react": "^0.16.0",
+        "webpack": "^5.0.0-rc.6",
+        "webpack-cli": "^5.0.0",
+        "yarn": "^1.22.19"
+    }
+}
