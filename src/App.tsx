@@ -5,7 +5,6 @@ import { Router } from "./router/Router";
 import { theme } from "./theme/theme";
 
 export const App = () => {
-  console.log("18テスト");
   return (
     <RecoilRoot>
       <UserProvider>
